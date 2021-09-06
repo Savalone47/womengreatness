@@ -17,7 +17,6 @@ class About extends CI_Controller {
 	}
 	public function open(){
 		//$data['stories'] = $this->Stori_model->get_story();
-
 		$this->load->view('Templates/header');
 		$this->load->view('About/index');
 		$this->load->view('Templates/footer');

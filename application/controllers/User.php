@@ -324,8 +324,7 @@ class User extends CI_Controller {
 	 * @return string
 	 */
 	function upload() {
-		foreach($_FILES as $name => $fileInfo)
-		{
+		foreach($_FILES as $name => $fileInfo){
 			$filename=$_FILES[$name]['name'];
 			$tmpname=$_FILES[$name]['tmp_name'];
 			$exp=explode('.', $filename);

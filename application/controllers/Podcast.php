@@ -30,8 +30,7 @@ class Podcast extends CI_Controller {
     /*
      * Adding a new organisation
      */
-    function add()
-    {   
+    function add(){   
         if(isset($_POST) && count($_POST) > 0)     
         {   
 

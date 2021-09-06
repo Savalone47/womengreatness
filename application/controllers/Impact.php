@@ -5,8 +5,7 @@
  */
  
 class Impact extends CI_Controller{
-    function __construct()
-    {
+    function __construct(){
         parent::__construct();
         $this->load->model('Impact_model');
     } 
@@ -14,8 +13,7 @@ class Impact extends CI_Controller{
     /*
      * Listing of impact
      */
-    function index()
-    {
+    function index(){
         $params['limit'] = RECORDS_PER_PAGE; 
         $params['offset'] = ($this->input->get('per_page')) ? $this->input->get('per_page') : 0;
         

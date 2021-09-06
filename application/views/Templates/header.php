@@ -45,7 +45,7 @@
 					<ul class="aside-menu">
 						<li class="main-menu__item main-menu__item--active"><a style="color:black"  class="main-menu__link" href="<?=base_url()?>">Home</a>
 						</li>
-						<li class="main-menu__item"><a class="main-menu__link" style="color:black" href="<?php echo site_url('About/open')?>"><span>About</span></a>
+						<li class="main-menu__item"><a class="main-menu__link" style="color:black" href="<?= base_url('About/open')?>"><span>About</span></a>
 						<!--li class="main-menu__item"><a class="main-menu__link" style="color:black" href="<?php echo site_url('Stories/open')?>"><span>Issues</span></a-->
 						<li class="main-menu__item"><a class="main-menu__link" style="color:black" href="<?php echo site_url('issue')?>"><span>Issues</span></a>
 						<li class="main-menu__item"><a class="main-menu__link" style="color:black" href="<?php echo site_url('user/registration')?>"><span>Advocacy</span></a></li>
